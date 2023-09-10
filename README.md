@@ -1,8 +1,5 @@
 # futlive server
 
-
-Goal.com Football Match Schedule Scraper
-
 Este é um aplicativo Node.js que extrai informações sobre os jogos de futebol da Goal.com e as disponibiliza em formato JSON. Ele pode ser útil para acompanhar as programações de jogos de futebol de várias ligas e torneios.
 
 Este aplicativo utiliza as seguintes bibliotecas:
