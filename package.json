@@ -1,7 +1,7 @@
 {
-  "name": "futlive-server",
+  "name": "agendafut-server",
   "version": "1.0.0",
-  "description": "futlive server com Node.js, Express e Cheerio",
+  "description": "Server feito com Node.js, Express e Cheerio",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
