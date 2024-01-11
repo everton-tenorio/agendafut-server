@@ -59,11 +59,9 @@ app.get('/jogos', async (req, res) => {
       const tableHtml = data.body.body;
       const table = cheerio.load(tableHtml)('table');
 
-      // Remover linhas que contêm a frase "TEMPO REAL"
       table.find('th:contains("TEMPO REAL")').remove();
       table.find('td:contains("Tempo real")').remove();
 
-      // Extrair dados individuais
       const rows = table.find('tbody tr');
       const serializedContent = rows.map((_, row) => {
         const columns = $(row).find('td');
